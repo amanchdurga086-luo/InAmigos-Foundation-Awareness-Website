@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="InAmigos Foundation awareness website highlighting projects, impact, volunteering, and community welfare initiatives.">
+    <title>InAmigos Foundation | NGO Awareness Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="InAmigos Foundation home">
+                <img src="images/logo.jpg" alt="InAmigos Foundation logo" class="logo-image">
+            </a>
+
+            <!-- CSS-only mobile menu toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <p class="eyebrow">Hope. Action. Community.</p>
+                <h1>Together We Can Build a Better Tomorrow</h1>
+                <p class="hero-text">
+                    InAmigos Foundation works with communities across India to support education,
+                    women empowerment, animal welfare, environmental conservation, food distribution,
+                    skill development, and long-term community welfare.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Become a Volunteer</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+                <div class="about-content">
+                    <h2>About InAmigos Foundation</h2>
+                    <p>
+                        Established in 2020, InAmigos Foundation is a registered non-profit
+                        organization committed to creating meaningful change through practical,
+                        people-first programs.
+                    </p>
+                    <p>
+                        Our work spans education, women empowerment, animal welfare, environmental
+                        conservation, food distribution, skill development, and community welfare.
+                        We believe that small acts of service can become powerful movements when
+                        communities come together.
+                    </p>
+                    <div class="about-highlights" aria-label="InAmigos Foundation focus areas">
+                        <span><i class="fa-solid fa-book-open"></i> Education</span>
+                        <span><i class="fa-solid fa-person-dress"></i> Women Empowerment</span>
+                        <span><i class="fa-solid fa-paw"></i> Animal Welfare</span>
+                        <span><i class="fa-solid fa-leaf"></i> Environment</span>
+                    </div>
+                </div>
+
+                <div class="about-image-wrap">
+                    <img src="images/about.jpg" alt="Volunteers teaching children in a community learning program" class="about-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="section mission-section" aria-labelledby="mission-heading">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 id="mission-heading">Mission &amp; Vision</h2>
+                </div>
+
+                <div class="mission-grid">
+                    <article class="info-card">
+                        <div class="card-icon green-icon">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Mission</h3>
+                        <p>
+                            To support vulnerable communities through accessible education,
+                            social support, environmental care, and compassionate service.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon orange-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3>Vision</h3>
+                        <p>
+                            To build an inclusive society where every person has the opportunity,
+                            dignity, and support needed to grow and contribute.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Our Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="images/seva-real.png" alt="Volunteers distributing meals and clothing to families">
+                        <div class="project-body">
+                            <h3>Project SEVA</h3>
+                            <p>Food and clothing distribution for families, children, and individuals in need.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/bachpanshala-real.png" alt="Children studying together in a classroom setting">
+                        <div class="project-body">
+                            <h3>Project BACHPANSHALA</h3>
+                            <p>Education support and learning opportunities for underprivileged children.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/jeev-real.png" alt="Animal welfare volunteer caring for a rescued dog">
+                        <div class="project-body">
+                            <h3>Project JEEV</h3>
+                            <p>Animal welfare programs focused on care, rescue support, and public awareness.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/udaan-real.png" alt="Women attending a skill-building workshop">
+                        <div class="project-body">
+                            <h3>Project UDAAN</h3>
+                            <p>Women empowerment initiatives that promote confidence, dignity, and opportunity.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/prakriti-real.png" alt="Volunteers planting trees in a community green space">
+                        <div class="project-body">
+                            <h3>Project PRAKRITI</h3>
+                            <p>Environmental conservation, tree plantation, and awareness for greener communities.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/vikas-real.png" alt="Young people learning digital and career skills">
+                        <div class="project-body">
+                            <h3>Project VIKAS</h3>
+                            <p>Internship and skill development programs for youth and emerging changemakers.</p>
+                            <a href="#contact" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="section impact-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Impact That Inspires Action</h2>
+                </div>
+
+                <div class="impact-grid">
+                    <article class="impact-card">
+                        <i class="fa-solid fa-users"></i>
+                        <strong>50,000+</strong>
+                        <span>Lives Impacted</span>
+                    </article>
+                    <article class="impact-card">
+                        <i class="fa-solid fa-tree"></i>
+                        <strong>20,000+</strong>
+                        <span>Trees Planted</span>
+                    </article>
+                    <article class="impact-card">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <strong>50,000+</strong>
+                        <span>Meals Distributed</span>
+                    </article>
+                    <article class="impact-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <strong>30,000+</strong>
+                        <span>Interns Trained</span>
+                    </article>
+                    <article class="impact-card">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        <strong>200+</strong>
+                        <span>Volunteers</span>
+                    </article>
+                    <article class="impact-card">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <strong>28+</strong>
+                        <span>States Reached</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Gallery</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <figure>
+                        <a href="images/gallery09.jpg" target="blank">
+                        <img src="images/gallery09.jpg" alt="child Education"></a>
+                    </figure>
+
+                    <figure>
+                        <a href="images/gallery02.jpg" target="blank">
+                        <img src="images/gallery02.jpg" alt="child Education"></a>
+                    </figure>
+
+                    <figure>
+                        <a href="images/gallery03.jpg" target="blank">
+                        <img src="images/gallery03.jpg" alt="Women Education"></a>
+                    </figure>
+
+                    <figure>
+                        <a href="images/gallery04.jpg" target="blank">
+                        <img src="images/gallery04.jpg" alt="tree plantation"></a>
+                    </figure>
+
+                    <figure>
+                        <a href="images/gallery05.jpg" target="blank">
+                        <img src="images/gallery05.jpg" alt="food distribution"></a>
+                    </figure>
+
+                    <figure>
+                        <a href="images/gallery06.jpg" target="blank">
+                        <img src="images/gallery06.jpg" alt="girl Education"></a>
+                    </figure>
+                                            
+                    <figure>
+                        <a href="images/gallery08.jpg" target="blank">
+                        <img src="images/gallery08.jpg" alt="animal care"></a>
+                    </figure>        
+                            
+                    <figure>
+                        <a href="images/gallery10.jpg" target="blank">
+                        <img src="images/gallery10.jpg" alt="support"></a>
+                    </figure>
+                                    
+                    <figure>
+                        <a href="images/gallery01.jpg" target="blank">
+                        <img src="images/gallery01.jpg" alt="tree plantation"></a>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section join-section" aria-labelledby="join-heading">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 id="join-heading">Why Join Us</h2>
+                </div>
+
+                <div class="join-grid">
+                    <article class="info-card">
+                        <div class="card-icon green-icon">
+                            <i class="fa-solid fa-people-carry-box"></i>
+                        </div>
+                        <h3>Volunteer</h3>
+                        <p>Give your time, skills, and care to projects that create direct community impact.</p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon orange-icon">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                        </div>
+                        <h3>Support</h3>
+                        <p>Help sustain education, relief, environment, and welfare programs through support.</p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon blue-icon">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <h3>Spread Awareness</h3>
+                        <p>Use your voice to bring more people into causes that deserve attention and action.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container cta-content">
+                <h2>Be the Change You Wish to See</h2>
+                <p>
+                    Your time, compassion, and support can help InAmigos Foundation reach more
+                    children, families, animals, and communities in need.
+                </p>
+                <div class="cta-actions">
+                    <a href="#contact" class="btn btn-primary">Join Now</a>
+                    <a href="#contact" class="btn btn-light">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <img src="images/logo.jpg" alt="InAmigos Foundation logo" class="logo-image">
+                    <span>InAmigos Foundation</span>
+                </a>
+                <p>
+                    A registered non-profit organization working for education, empowerment,
+                    animal welfare, environment, food distribution, and community welfare.
+                </p>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="https://www.facebook.com/share/1CeyCkB3uL/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/inamigos?utm_medium=copy_link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/inamigos-foundation" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com/@inamigosfoundation?si=lcyRib3x-bScUF5M" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Projects</h3>
+                <ul>
+                    <li><a href="#projects">Project SEVA</a></li>
+                    <li><a href="#projects">Project BACHPANSHALA</a></li>
+                    <li><a href="#projects">Project JEEV</a></li>
+                    <li><a href="#projects">Project UDAAN</a></li>
+                    <li><a href="#projects">Project PRAKRITI</a></li>
+                </ul>
+            </div>
+
+            <address class="footer-column footer-contact">
+                <h3>Contact Information</h3>
+                <p><i class="fa-solid fa-location-dot"></i> India</p>
+                <p><i class="fa-solid fa-envelope"></i>inamigosfoundation@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 626 730 9902</p>
+            </address>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 InAmigos Foundation. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
